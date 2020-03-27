@@ -33,8 +33,7 @@
     "delay": "2500",
     "env": {
       "NODE_ENV": "development",
-      "PORT": 3500,
-      "MONGODB_URI": "mongodb://heroku_vqqc1kts:cue8h98gpu4p3368j3lmr5d1r1@ds145356.mlab.com:45356/heroku_vqqc1kts"
+      "PORT": 3500
     }
   },
   "engines": {
