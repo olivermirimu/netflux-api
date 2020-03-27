@@ -92,6 +92,13 @@ function routes(Movie, User) {
 
   /***Movie Routes***/
   apiRouter.route('/movies')
+    .post((req, res) => {
+      const movie = new Movie(req.body);
+      movie.save().catch(err => {
+        console.log(err);
+      });
+      return res.status(201).json(movie);
+    })
     .get((req, res) => {
 
       Movie.find((err, movies) => {
