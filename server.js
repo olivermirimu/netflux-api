@@ -7,10 +7,16 @@ const bodyParser = require('body-parser');
 
 const Movie = require('./models/movieModel');
 const User = require('./models/userModel');
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/movieApi';
+const MONGODB_URI = 'mongodb://heroku_vqqc1kts:cue8h98gpu4p3368j3lmr5d1r1@ds145356.mlab.com:45356/heroku_vqqc1kts' || process.env.MONGODB_URI || 'mongodb: //localhost/movieApi';
 const db = mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
+}, err => {
+  if (err) {
+    console.log(`there is a prolem`, err);
+  } else {
+    console.log(`Your connection is ready`);
+  }
 });
 mongoose.connection;
 

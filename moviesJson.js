@@ -1,4 +1,4 @@
-db.movies.insertMany ([{
+db.movies.insertMany([{
     id: 1,
     title: 'Spiderman -into the spiderverse',
     releaseYear: '2019',
@@ -12,8 +12,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/intoTheSpiderverse.jpg',
     cover: '/assets/intoTheSpiderverseC.jpg'
-  },
-  {
+  }, {
     id: 2,
     title: 'Spiderman -Far from home',
     releaseYear: '2019',
@@ -27,8 +26,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/farFromHome.jpg',
     cover: '/assets/farFromHomeC1.jpg'
-  },
-  {
+  }, {
     id: 3,
     title: 'John Wick 3 -Parabelum',
     releaseYear: '2019',
@@ -42,8 +40,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/johnWick.jpg',
     cover: '/assets/johnWickC.jpg'
-  },
-  {
+  }, {
     id: 4,
     title: 'The Sectret Life Of Pets 2',
     releaseYear: '2016-2019',
@@ -57,8 +54,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/lifePets.jpg',
     cover: '/assets/lifePetsC.jpg'
-  },
-  {
+  }, {
     id: 5,
     title: 'Captain Marvel',
     releaseYear: '2018',
@@ -72,8 +68,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/captainMarvel.jpg',
     cover: '/assets/captainMarvelC.jpg'
-  },
-  {
+  }, {
     id: 6,
     title: 'Minions',
     releaseYear: '2019',
@@ -87,8 +82,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/minions.jpg',
     cover: '/assets/minionsC.jpg'
-  },
-  {
+  }, {
     id: 7,
     title: 'Girls Trip',
     releaseYear: '2017',
@@ -102,8 +96,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/girlsTrip.jpg',
     cover: '/assets/girlsTripC.jpg'
-  },
-  {
+  }, {
     id: 8,
     title: 'Black Panther',
     releaseYear: '2019',
@@ -117,8 +110,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/blackPanther.jpg',
     cover: '/assets/blackPantherC.jpg'
-  },
-  {
+  }, {
     id: 9,
     title: 'Hobbs and Shaw',
     releaseYear: '2019',
@@ -132,8 +124,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/hobbsShaw.jpg',
     cover: '/assets/hobbsShawC.jpg'
-  },
-  {
+  }, {
     id: 10,
     title: 'The Lion King',
     releaseYear: '2019',
@@ -147,8 +138,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/lionKing.jpg',
     cover: '/assets/lionKingC.jpg'
-  },
-  {
+  }, {
     id: 11,
     title: 'Terminator Salvation',
     releaseYear: '2019',
@@ -162,8 +152,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/terminatorSalvation.jpg',
     cover: '/assets/terminatorSalvationC.jpg'
-  },
-  {
+  }, {
     id: 12,
     title: 'Toy Story 4',
     releaseYear: '2019',
@@ -177,8 +166,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/toyStory4.jpg',
     cover: '/assets/toyStory4C.jpg'
-  },
-  {
+  }, {
     id: 13,
     title: 'Suicide Squad',
     releaseYear: '2016',
@@ -192,8 +180,7 @@ db.movies.insertMany ([{
     awards: '',
     imageUrl: '/assets/suicideSquad.jpg',
     cover: '/assets/suicideSquadC.jpg'
-  },
-  {
+  }, {
     id: 14,
     title: 'Avengers-Infinity War',
     releaseYear: '2016- 2019',
@@ -208,5 +195,4 @@ db.movies.insertMany ([{
     imageUrl: '/assets/infinityWar.jpg',
     cover: '/assets/infinityWarC.jpg'
   }
-]
-)
+])
