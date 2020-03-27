@@ -7,7 +7,8 @@ const bodyParser = require('body-parser');
 
 const Movie = require('./models/movieModel');
 const User = require('./models/userModel');
-const db = mongoose.connect('mongodb://localhost/movieApi', {
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/movieApi';
+const db = mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
